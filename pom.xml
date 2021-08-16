@@ -9,10 +9,10 @@
 		<version>2.3.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>api.zuul</artifactId>
+	<groupId>br.com.integra</groupId>
+	<artifactId>integra-zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api.zuul</name>
+	<name>integra-zuul</name>
 	<description>Zuul Gateway</description>
 
 	<properties>
