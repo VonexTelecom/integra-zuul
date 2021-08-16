@@ -22,9 +22,9 @@ pipeline {
         }
         stage ('Run docker') {
             steps {
-                sh ' docker stop integra-zuul' 
-                sh ' docker rm integra-zuul'                
-                sh ' docker container run -d --name integrazuul -p 8081:8081 vonex/api_zuul:${BUILD_NUMBER}'
+                //sh ' docker stop integra-zuul' 
+                //sh ' docker rm integra-zuul'                
+                sh ' docker container run -d --name integra-zuul -p 8081:8081 vonex/api_zuul:${BUILD_NUMBER}'
             }
         }        
     }
