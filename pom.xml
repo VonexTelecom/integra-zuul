@@ -10,7 +10,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.integra</groupId>
-	<artifactId>integra-zuul</artifactId>
+	<artifactId>api.zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>integra-zuul</name>
 	<description>Zuul Gateway</description>
