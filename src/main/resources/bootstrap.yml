@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: integra-zuul
+  cloud:
+    config:
+      uri: http://integra-config-server:8088
