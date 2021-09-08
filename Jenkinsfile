@@ -24,7 +24,7 @@ pipeline {
             steps {
                 //sh ' docker stop integra-zuul' 
                 //sh ' docker rm integra-zuul'                
-                sh ' docker container run --network intranet -d --name integra-zuul -p 8081:8081 vonex/api_zuul:${BUILD_NUMBER}'
+                sh ' docker container run -d --name integra-zuul -p 8081:8081 vonex/api_zuul:${BUILD_NUMBER}'
             }
         }        
     }
