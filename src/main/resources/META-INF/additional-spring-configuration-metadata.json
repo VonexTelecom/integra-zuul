@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "spring.host.time-to-live",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.host.time-to-live'"
+  },
+  {
+    "name": "spring.host.connect-timeout-millis",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.host.connect-timeout-millis'"
+  },
+  {
+    "name": "spring.host.max-per-route-connections",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.host.max-per-route-connections'"
+  },
+  {
+    "name": "spring.host.max-total-connections",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.host.max-total-connections'"
+  },
+  {
+    "name": "spring.host.socket-timeout-millis",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.host.socket-timeout-millis'"
+  },
+  {
+    "name": "spring.semaphore.max-semaphores",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.semaphore.max-semaphores'"
+  }
+]}
