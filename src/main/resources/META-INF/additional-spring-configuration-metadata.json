@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.ribbon.Connect-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ribbon.Connect-timeout'"
+  },
+  {
+    "name": "spring.ribbon.Read-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ribbon.Read-timeout'"
+  },
+  {
+    "name": "spring.eager-load.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.eager-load.enabled'"
+  }
+]}

@@ -6,3 +6,8 @@ spring:
   cloud:
     config:
       uri: http://integra-config-server:8088
+  ribbon:
+      ConnectTimeout: 10000
+      ReadTimeout: 10000
+  eager-load:
+      enabled: true
