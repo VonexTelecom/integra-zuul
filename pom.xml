@@ -41,6 +41,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
+		<dependency>
+        	<groupId>com.netflix.hystrix</groupId>
+        	<artifactId>hystrix-javanica</artifactId>
+       	</dependency>
 		<!--****************************************************************** -->
 		<!--******* spring-cloud-starter-config - cliente para config server * -->
 		<!--******* Utilizado para carregar propriedades dinamicamente ******* -->
