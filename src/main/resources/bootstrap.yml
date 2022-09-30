@@ -9,3 +9,9 @@ spring:
 feign:
   hystrix:
     enabled: true
+    command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
